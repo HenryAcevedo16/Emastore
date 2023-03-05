@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// Mixin//
+@mixin anclas {
+    color: $color_2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo {
+	width: 60px;
+}
+.fondoheader {
+	background-color: $background-color_1;
+}
+li {
+	a {
+		text-transform: uppercase;
+		font-weight: 900;
+		color: $color_1;
+	}
+}
+.botonMio {
+	background-color: $background-color_2;
+	color: $color_2;
+	&:hover {
+		background-color: $background-color_1;
+		color: $color_3;
+		border: 1px solid black;
+	}
+}
+.superior {
+	height: 30px;
+	background-color: $background-color_3;
+    @include anclas;
+	p {
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 0.8rem;
+		margin-bottom: 0;
+	}
+}
+.inferior {
+	background-color: $background-color_2;
+	height: 40px;
+	@include anclas;
+	p {
+		margin-bottom: 0;
+	}
+	a {
+		color: $color_2;
+	}
+}
+.banner {
+	background-image: url("/img/dos.png");
+	background-size: cover;
+}
