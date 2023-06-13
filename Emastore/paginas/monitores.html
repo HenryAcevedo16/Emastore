@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora nuestra amplia selección de monitores de alta calidad para mejorar tu experiencia visual. Ofrecemos una variedad de tamaños, resoluciones y tecnologías para que puedas encontrar el monitor perfecto para tus necesidades. Ya sea para juegos, trabajo o entretenimiento, tenemos el monitor adecuado para ti. ¡Compra ahora y disfruta de imágenes nítidas y detalladas en tu pantalla!">
+    <title>EmaStore</title>
+    <!-- CSS BS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--MI CSS-->
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+    <div class="superior">
+        <p>Pago en linea</p>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="/img/luffylogo.png" alt="Logo de EmaStore">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/paginas/tarjetadevideo.html">Tarjeta de video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/paginas/monitores.html">Monitores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/paginas/laptop.html">Laptops</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/paginas/case.html">Case</a>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/paginas/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/paginas/login.html">Login</a>
+                    </li>
+                </ul>
+                <div class="two columns u-pull-right">
+                  <ul>
+                      <li class="submenu">
+                              <img src="/img/cart.png" id="img-carrito">
+                              <div id="carrito">
+                                      
+                                      <table id="lista-carrito" class="u-full-width">
+                                          <thead>
+                                              <tr>
+                                                  <th>Imagen</th>
+                                                  
+                                                  <th>Nombre</th>
+
+                                                  <th>Precio</th>
+
+                                                  <th>Cantidad</th>
+                                                  <th></th>
+                                              </tr>
+                                          </thead>
+                                          <tbody></tbody>
+                                      </table>
+  
+                                      <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                              </div>
+                      </li>
+                  </ul>
+              </div>
+            </div>
+        </div>
+    </nav>
+    <div class="inferior">
+        <p>Suscribete en nuestro canal de twitch y obten un 15% de descuento. <a
+                href="https://www.twitch.tv/emacvh_">Unete ya</a></p>
+    </div>
+
+ <!--CAROUSEL-->
+ <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/img/monitor1.jpg" class="d-block w-100" alt="Tarjeta de video">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/monitor2.jpeg" class="d-block w-100" alt="Monitor">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/monitor3.webp" class="d-block w-100" alt="laptop">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--Card-->
+  <div id="lista-producto" class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="/img/monitor4.png" class="card-img-top" alt="1660s">
+        <div class="card-body">
+          <h5 class="card-title">Acer Nitro KG251Q Zbiip 24.5” Full HD (1920 x 1080)</h5>
+          <p class="card-text">Acer Nitro KG251Q Zbiip 24.5” Full HD (1920 x 1080) Gaming Monitor with AMD FreeSync Premium Technology, Up to 250Hz Refresh Rate, 1ms (VRB), HDR Support.</p>
+          <p class="precio">Precio: 300.00</p>
+          <button id="boton" class="btn btn-primary btn-sm input agregar-carrito" data-id="5">Agregar al Carrito</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/img/monitor5.png" class="card-img-top" alt="6600">
+        <div class="card-body">
+          <h5 class="card-title">Acer Nitro ED240Q Sbiip 23.6” Curved 1500R 1920x1080</h5>
+          <p class="card-text">Acer Nitro ED240Q Sbiip 23.6” Curved 1500R 1920x1080 165Hz Refresh rate 1ms response time AMD FreeSync Premium Gaming Monitor, HDMIx2, DisplayPort.</p>
+          <p class="precio">Precio: 300.00</p>
+        <button id="boton" class="btn btn-primary btn-sm input agregar-carrito" data-id="6">Agregar al Carrito</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/img/monitor6.jpg" class="card-img-top" alt="7900">
+        <div class="card-body">
+          <h5 class="card-title">LG 48" (47.5" Viewable)</h5>
+          <p class="card-text">LG 48" (47.5" Viewable) UltraGear UHD OLED with Anti-Glare Low Reflection 0.1ms R/T 120Hz Gaming Monitor with G-SYNC Compatible.</p>
+          <p class="precio">Precio: 300.00</p>
+        <button id="boton" class="btn btn-primary btn-sm input agregar-carrito" data-id="7">Agregar al Carrito</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/img/monitor7.jpg" class="card-img-top" alt="3090">
+        <div class="card-body">
+          <h5 class="card-title">MSI G271CQP E2 27" </h5>
+          <p class="card-text">MSI G271CQP E2 27" WQHD 2560 x 1440 (2K) 170 Hz 1ms response time FreeSync Premium HDMI CEC Profile Sync Adjustable Stand Curved Gaming monitor</p>
+          <p class="precio">Precio: 300.00</p>
+        <button id="boton" class="btn btn-primary btn-sm input agregar-carrito" data-id="8">Agregar al Carrito</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <!--Footer-->
+      <footer>
+        <div class="footer-container">
+          <div class="logo">
+            <img src="/img/luffylogo.png" alt="Logo de la tienda">
+          </div>
+          <div class="contact-info">
+            <p>Teléfono: 123-456-789</p>
+            <p>Email: info@tiendapiezas.com</p>
+          </div>
+        </div>
+        <div class="copyright-container">
+          <span class="copyright">Copyright 2021, itskrey.com. All rights reserved.</span>
+      </footer>
+  
+
+    <!--SCRIPT DE BUSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+<script src="/JS/main1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

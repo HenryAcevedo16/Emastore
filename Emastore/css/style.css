@@ -1,0 +1,271 @@
+
+/*header*/
+.logo {
+    width: 60px;
+}
+
+.fondoheader {
+    background-color: #ffffff;
+}
+
+li a {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+}
+
+/*Botones*/
+
+.botonMio {
+    background-color: #007bc6;
+    color: #ffffff;
+
+}
+
+.botonMio:hover {
+    background-color: #ffffff;
+    color: #007bc6;
+    border: 1px solid black;
+}
+
+/*superior*/
+
+.superior {
+    height: 30px;
+    background-color: #000;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.superior p {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+/*Inferior*/
+
+.inferior {
+    background-color: #007bc6;
+    height: 40px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inferior p {
+    margin-bottom: 0;
+}
+.inferior a {
+    color: #ffffff;
+}
+
+.banner {
+    background-image: url("/img/dos.png");
+    background-size: cover;
+    
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+    backdrop-filter: blur(10px);
+    top:100%;
+    z-index: 100;
+    background-color: #4E4B5076;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+.vacio {
+    background-color: #7270ec;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #FEFFFF;
+    font-weight: 800;
+}
+
+a {
+    background-color: transparent;
+  }
+
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  th, td {
+    color: #feffff;
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  td,
+  th {
+    padding: 10px;
+  }
+
+  .borrar-producto {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #121212;
+    padding: 5px;
+    text-align: center;
+    color: white;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 80px;
+    height: auto;
+  }
+  
+  .contact-info {
+    text-align: left;
+  }
+  
+  .social-media a {
+    margin-left: 10px;
+    color: #555;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  /* Animación de fade-in */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animated-link {
+    animation: fadeIn 1s;
+  }
+
+  .copyright-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.copyright{
+    font-size: 12px;
+    opacity: 0.7;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+/* login */
+
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: dodgerblue;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e90ff;
+}
+
+.create-account-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.create-account-text a {
+  color: dodgerblue;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.create-account-text a:hover {
+  color: #1e90ff;
+}
+
+/* Animación de entrada del formulario */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.container {
+  animation: fadeIn 0.5s;
+}

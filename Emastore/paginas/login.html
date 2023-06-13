@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/login.css">
+  <title>Login</title>
+</head>
+<body>
+
+  <div class="login-container">
+    <div class="login-info-container">
+      <h1 class="title">Login in with</h1>
+      <div class="social-login">
+        <div class="social-login-element">
+          <img src="/img/google.svg" alt="google-image">
+          <span>Google</span>
+        </div>
+        <div class="social-login-element">
+          <img src="/img/facebook.svg" alt="facebook-image">
+          <span>Facebook</span>
+        </div>
+        
+      </div>
+      <p>or</p>
+      <form id="formulario" class="input-container">
+        <input type="text" name="email" id="email" placeholder="Email">
+        <input type="password" name="password" id="password" placeholder="password">
+        <p>Forgot password? <span class="span">Click here</span></p>
+        <button class="btn" type="submit">Login</button>
+        <p>Don't have an account? <a  class="span" href="/paginas/crearcuenta.html" >Sign Up</a></p>
+      </form>
+
+    </div>
+    <img class="image-container" src="/img/login.svg" alt="login">
+
+  </div>
+  <script src="/JS/login.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+</body>
+</html>
